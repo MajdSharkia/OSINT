@@ -44,6 +44,7 @@ Technologies:
 Deployment:
     Clone the repository containing the source code.
     Deploy the Docker containers using DockerFile.
+    Run "start_services.sh" when docker started
     Expose the API Gateway to the internet to receive incoming requests.
 
 API Response:
