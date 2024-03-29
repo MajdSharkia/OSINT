@@ -46,6 +46,13 @@ Deployment:
     Deploy the Docker containers using DockerFile.
     Expose the API Gateway to the internet to receive incoming requests.
 
+API Response:
+    Metrics fields:
+        status - Success/Fail
+        time - time taken to get the microservice reply
+        total: The total time for every IP from each API
+        api-time: The real time the external API took (should be less that the total above when running multiple IPs, as the app supports concurently/multi tasks)
+        
 Example Request:
 
 http
