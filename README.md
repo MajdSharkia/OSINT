@@ -54,113 +54,109 @@ GET http://localhost/176.228.193.161
 
 Response:
 
-json
+{"metrics": {
 
-{
-    "metrics": {
-        "bgview": {
-            "176.228.193.161": {
-                "status": "success",
-                "time": 0.928473
-            }
-        },
-        "ip-api": {
-            "176.228.193.161": {
-                "status": "success",
-                "time": 0.258012
-            }
-        },
-        "total": {
-            "api-time": 1.669995,
-            "status": "success",
-            "time": 1.186485
-        }
+    "bgview": {
+      "176.228.193.161": {
+        "status": "success",
+        "time": 0.928473
+      }
     },
-    "raw_data": {
-        "bgview": {
-            "176.228.193.161": {
-                "@meta": {
-                    "api_version": 1,
-                    "execution_time": "65.29 ms",
-                    "time_zone": "UTC"
-                },
-                "data": {
-                    "iana_assignment": {
-                        "assignment_status": "allocated",
-                        "date_assigned": null,
-                        "description": "RIPE NCC",
-                        "whois_server": "whois.ripe.net"
-                    },
-                    "ip": "176.228.193.161",
-                    "maxmind": {
-                        "city": null,
-                        "country_code": null
-                    },
-                    "prefixes": [
-                        {
-                            "asn": {
-                                "asn": 12400,
-                                "country_code": "IL",
-                                "description": "Partner Communications Ltd.",
-                                "name": "PARTNER-AS"
-                            },
-                            "cidr": 17,
-                            "country_code": "IL",
-                            "description": null,
-                            "ip": "176.228.128.0",
-                            "name": null,
-                            "prefix": "176.228.128.0/17"
-                        },
-                        {
-                            "asn": {
-                                "asn": 12400,
-                                "country_code": "IL",
-                                "description": "Partner Communications Ltd.",
-                                "name": "PARTNER-AS"
-                            },
-                            "cidr": 14,
-                            "country_code": "IL",
-                            "description": null,
-                            "ip": "176.228.0.0",
-                            "name": null,
-                            "prefix": "176.228.0.0/14"
-                        }
-                    ],
-                    "ptr_record": "176-228-193-161.orange.net.il",
-                    "rir_allocation": {
-                        "allocation_status": "allocated",
-                        "cidr": 14,
-                        "country_code": null,
-                        "date_allocated": "2011-12-01 00:00:00",
-                        "ip": "176.228.0.0",
-                        "prefix": "176.228.0.0/14",
-                        "rir_name": "RIPE"
-                    }
-                },
-                "status": "ok",
-                "status_code": 200,
-                "status_message": "Query was successful"
-            }
-        },
-        "ip-api": {
-            "176.228.193.161": {
-                "as": "AS12400 Partner Communications Ltd.",
-                "city": "Rishon LeTsiyyon",
-                "country": "Israel",
-                "countryCode": "IL",
-                "isp": "Partner Communications",
-                "lat": 31.9642,
-                "lon": 34.7876,
-                "org": "",
-                "query": "176.228.193.161",
-                "region": "M",
-                "regionName": "Central District",
-                "status": "success",
-                "status_code": 200,
-                "timezone": "Asia/Jerusalem",
-                "zip": ""
-            }
-        }
+    "ip-api": {
+      "176.228.193.161": {
+        "status": "success",
+        "time": 0.258012
+      }
+    },
+    "total": {
+      "api-time": 1.669995,
+      "status": "success",
+      "time": 1.186485
     }
-}
-
+    },"raw_data": {
+    "bgview": {
+      "176.228.193.161": {
+        "@meta": {
+          "api_version": 1,
+          "execution_time": "65.29 ms",
+          "time_zone": "UTC"
+        },
+        "data": {
+          "iana_assignment": {
+            "assignment_status": "allocated",
+            "date_assigned": null,
+            "description": "RIPE NCC",
+            "whois_server": "whois.ripe.net"
+          },
+          "ip": "176.228.193.161",
+          "maxmind": {
+            "city": null,
+            "country_code": null
+          },
+          "prefixes": [
+            {
+              "asn": {
+                "asn": 12400,
+                "country_code": "IL",
+                "description": "Partner Communications Ltd.",
+                "name": "PARTNER-AS"
+              },
+              "cidr": 17,
+              "country_code": "IL",
+              "description": null,
+              "ip": "176.228.128.0",
+              "name": null,
+              "prefix": "176.228.128.0/17"
+            },
+            {
+              "asn": {
+                "asn": 12400,
+                "country_code": "IL",
+                "description": "Partner Communications Ltd.",
+                "name": "PARTNER-AS"
+              },
+              "cidr": 14,
+              "country_code": "IL",
+              "description": null,
+              "ip": "176.228.0.0",
+              "name": null,
+              "prefix": "176.228.0.0/14"
+            }
+          ],
+          "ptr_record": "176-228-193-161.orange.net.il",
+          "rir_allocation": {
+            "allocation_status": "allocated",
+            "cidr": 14,
+            "country_code": null,
+            "date_allocated": "2011-12-01 00:00:00",
+            "ip": "176.228.0.0",
+            "prefix": "176.228.0.0/14",
+            "rir_name": "RIPE"
+          }
+        },
+        "status": "ok",
+        "status_code": 200,
+        "status_message": "Query was successful"
+      }
+    },
+    "ip-api": {
+      "176.228.193.161": {
+        "as": "AS12400 Partner Communications Ltd.",
+        "city": "Rishon LeTsiyyon",
+        "country": "Israel",
+        "countryCode": "IL",
+        "isp": "Partner Communications",
+        "lat": 31.9642,
+        "lon": 34.7876,
+        "org": "",
+        "query": "176.228.193.161",
+        "region": "M",
+        "regionName": "Central District",
+        "status": "success",
+        "status_code": 200,
+        "timezone": "Asia/Jerusalem",
+        "zip": ""
+      }
+    }
+  }
+  }
