@@ -47,6 +47,7 @@ Deployment:
     Expose the API Gateway to the internet to receive incoming requests.
 
 API Response:
+
     Metrics fields:
         status - Success/Fail
         time - time taken to get the microservice reply
@@ -60,6 +61,7 @@ http
 GET http://localhost/176.228.193.161
 
 Response:
+
 
 {"metrics": {
 
