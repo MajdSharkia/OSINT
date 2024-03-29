@@ -45,6 +45,8 @@ Deployment:
 
     Clone the repository containing the source code.
     Deploy the Docker containers using DockerFile.
+        docker build -t osint-app .
+        docker run -it -p 8080:80 osint-app /bin/bash
     Run "start_services.sh" when docker started
     Expose the API Gateway to the internet to receive incoming requests.
 
